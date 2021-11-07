@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\Thiago Saldanha\Desktop\BoiSaude\BoiSaudeWebApplication\BoiSaudeWebApplication\obj\Release\net5.0\PubTmp\Out\" />
+  <dbfullsql path="C:\Users\Thiago Saldanha\Desktop\BoiSaude\BoiSaudeWebApplication\BoiSaudeWebApplication\obj\Release\net5.0\PubTmp\EFSQLScripts\BoiSaudeWebApplication.Models.WordsContext.sql" />
+</sitemanifest>

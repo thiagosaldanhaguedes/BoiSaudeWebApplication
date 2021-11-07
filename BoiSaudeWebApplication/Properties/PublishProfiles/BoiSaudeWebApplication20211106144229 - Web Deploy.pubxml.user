@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Esse arquivo é usado pelo processo de publicação/pacote do seu projeto Web. É possível personalizar o comportamento deste processo
+ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAOaveX5v6VE+Uh6d2jAAydQAAAAACAAAAAAAQZgAAAAEAACAAAAAZo2XVEpXab0+/gdtmwSY4lZfVpnFfkv75RbVfytfHawAAAAAOgAAAAAIAACAAAACVtmS6c0jWAcg7BuriOa1EzrOAFehRFM/v47ls/Ai4YoAAAAC6sFo8guOK/gfFU3gGVUd3zQixC7rRaqGZBLc3qcZ+W7EjFU6Zo0Xtxa43WWbEX7YsvlUvPQyekNAikTg6q13czV/tTDER/2fzgVitbTRh3Xm6zX6Ox40qA3B0O/CmIyZqNvdHh/Ho7YJcr/aEK87h/ZoT0etUWtJVWhASQdDmiEAAAADwfvw2UTQ1UY28LWPxJU4FnuaPkefOeif2eR2TdKj1d0O4bacgu4AAR5U+V3EIppZkvatj26cPmqaHs3Z1k9r7</EncryptedPassword>
+    <History>True|2021-11-07T19:36:00.5340017Z;True|2021-11-06T15:23:02.3364747-03:00;True|2021-11-06T15:04:56.5631636-03:00;True|2021-11-06T14:54:16.6164218-03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:boisaudewebapplicationdbserver.database.windows.net,1433%3bInitial Catalog=BoiSaudeWebApplication_db%3bUser Id=thiagosaldanha%40boisaudewebapplicationdbserver%3bPassword=%40Thiago1378</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="BoiSaudeWebApplication.Models.WordsContext">
+      <Value>Data Source=tcp:boisaudewebapplicationdbserver.database.windows.net,1433%3bInitial Catalog=BoiSaudeWebApplication_db%3bUser Id=thiagosaldanha%40boisaudewebapplicationdbserver%3bPassword=%40Thiago1378</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

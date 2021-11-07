@@ -1,0 +1,34 @@
+﻿@model IEnumerable<BoiSaudeWebApplication.Models.Words>
+
+@{
+    ViewData["Title"] = "Lista de palavras";
+}
+
+<h1>Lista de palavras</h1>
+
+<p>
+    <a asp-action="AddOrEdit">Adicionar Palavra</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                <a asp-action="AddOrEdit" asp-route-id="@item.WordsId"><input type="button" class="btn-primary" value="Editar" /></a> |
+                <a asp-action="Delete" asp-route-id="@item.WordsId"><input type="button" class="btn-danger" value="Remover"/></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
